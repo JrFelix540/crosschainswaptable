@@ -1,0 +1,29 @@
+.main{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.section__top{
+    padding-bottom: 15px;
+    text-align: right;
+}
+
+.form{
+
+    &__input{
+        height: 16px;
+        width: 16px;
+        padding: 5px;
+        font-size: 12px;
+    }
+}
+
+.btn__primary{
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #023e8a;
+    color: #fff;
+
+}
