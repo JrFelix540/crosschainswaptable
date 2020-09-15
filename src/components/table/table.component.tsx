@@ -22,7 +22,7 @@ import './table.styles.scss'
 
 const Table: React.FC = () => {
     const classes = useStyles();
-    const [interval, setIntervalTimer] = React.useState(5);
+    const [interval, setIntervalTimer] = React.useState(10);
 
     const handleChange = (event: any) => {
         console.log(event.target.value)
