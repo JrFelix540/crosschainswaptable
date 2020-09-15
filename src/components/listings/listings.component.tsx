@@ -169,7 +169,7 @@ const Listings: React.FC<IIntervalProp> = ({interval}) => {
 
           {emptyRows > 0 && (
             <TableRow style={{ height: 53 * emptyRows }}>
-              <Spinner />
+           
             </TableRow>
           )}
         </TableBody>
