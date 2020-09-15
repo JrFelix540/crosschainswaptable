@@ -80,7 +80,7 @@ const Listings: React.FC<IIntervalProp> = ({interval}) => {
 
         const myFunction = function() {
             intervalSeconds = interval * 1000
-            console.log("object")
+            fetchRates()
             setTimeout(myFunction, intervalSeconds)
         }
         setTimeout(myFunction, intervalSeconds)
